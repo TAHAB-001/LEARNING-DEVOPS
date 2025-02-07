@@ -1,5 +1,5 @@
 # LEARNING-DEVOPS
 MY FIRST REPO 
-MY LEARNING 
+this is my first git repository
 <br>
 DEVOPS LEARNINGS
