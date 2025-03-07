@@ -1,0 +1,30 @@
+sudo apt update
+sudo apt upgrade
+sudo apt install mysql-client
+mysql --version   8.0.41
+
+sytax :- mysql -h <endpoint> -u admin -p
+mysql -h database-1.cduk0mqie6lm.eu-north-1.rds.amazonaws.com -u admin -pKAxmb7qEC0AngrtoZrTF
+
+
+********after connecting mysql*****************
+SHOW DATABASES;
+CREATE DATABASE TAHA;
+USE TAHA;
+
+--------REFER TUTORIALPOINT MYSQL (GOOGLE IT)
+
+
+create table tutorial_tbl (
+	tutorial_id INT NOT NULL AUTO_INCREMENT,
+	tutorial_title VARCHAR(100) NOT NULL,
+	tutorial_author VARCHAR(40) NOT NULL,
+	submission_date DATE,
+	PRIMARY KEY (tutorial_id)	  
+);
+
+SHOW TABLES;
+
+DROP TABLE tutorial_id ;
+
+
